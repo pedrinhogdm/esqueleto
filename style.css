@@ -91,7 +91,7 @@
   display: flex;
   align-items: center;
   padding: 10px;
-}
+} 
 
 .menu li{
     list-style: none;
@@ -114,6 +114,63 @@
 }
 
 /*COMEÇA AQUI*/
+.container{
+  display: flex;
+  padding: 10px;
+}
+
+.menu2{
+  gap: 10px;
+  align-items: center; 
+  padding: 50px;
+}
+
+.menu2 li{
+    list-style: none;
+}
+
+.menu2 {
+    color: #01200F;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.5s;
+    gap: 200px;
+}
+
+.menu2 :hover{
+  font-size: 25px;
+}
+.Pedidos{
+  display: flex;
+  padding: 200px;
+}
+
+ .menu3{
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  
+} 
+
+.menu3 {
+    color: #01200F;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.5s;
+    padding: 200px;
+    
+} 
+.menu3{
+  border: 1px solid black;
+  padding: 200px;
+  
+}
+
+.MenuLateral{
+  border: 1px solid black;
+}
+
+
 
 footer{
     border-top: 1px solid #01200F;
